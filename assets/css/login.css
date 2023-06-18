@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* login page  */
+.loginContainer {
+    width: 100%;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.loginLogo {
+    width: 8%;
+    object-fit: contain;
+    /* border: 2px solid red; */
+}
+
+.loginForm {
+    /* border: 2px solid blue; */
+    padding: 10px;
+    width: 400px;
+}
+
+.btn-default {
+    background-color: rgba(193, 88, 218, 1);
+    color: #fff;
+    padding: 10px 0;
+}
+
+.passwordToggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    .loginLogo {
+        width: 120px;
+    }
+    .loginForm{
+        width: 100%;
+    }
+
+}
